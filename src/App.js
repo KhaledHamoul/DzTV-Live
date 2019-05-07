@@ -6,6 +6,8 @@ import HomeScreen from './screens/Home/HomeScreen';
 import ChannelsScreen from './screens/Channels/ChannelsScreen';
 import './App.css';
 
+const baseUrl = process.env.PUBLIC_URL;
+
 function App() {
   return (
     <Router>
@@ -25,7 +27,7 @@ function App() {
         </div>
       </header>
       <div className="container-fluid">
-        <Route exact path="/" component={HomeScreen} />
+        <Route exact path={baseUrl + "/"} component={HomeScreen} />
         <Route path="/channels" component={ChannelsScreen} />
         <Route path="/topics" component={HomeScreen} />
       </div>
