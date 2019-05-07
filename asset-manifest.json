@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DzTV-Live/static/css/main.16964c84.chunk.css",
+    "main.css": "/DzTV-Live/static/css/main.a030822e.chunk.css",
     "main.js": "/DzTV-Live/static/js/main.e04b837f.chunk.js",
     "main.js.map": "/DzTV-Live/static/js/main.e04b837f.chunk.js.map",
     "runtime~main.js": "/DzTV-Live/static/js/runtime~main.eb53a194.js",
@@ -8,9 +8,9 @@
     "static/js/2.a5c26d8e.chunk.js": "/DzTV-Live/static/js/2.a5c26d8e.chunk.js",
     "static/js/2.a5c26d8e.chunk.js.map": "/DzTV-Live/static/js/2.a5c26d8e.chunk.js.map",
     "index.html": "/DzTV-Live/index.html",
-    "precache-manifest.7e429b9e7ef234f538a684c9ad6cad4d.js": "/DzTV-Live/precache-manifest.7e429b9e7ef234f538a684c9ad6cad4d.js",
+    "precache-manifest.294db948b233a41e69118fbaf419319e.js": "/DzTV-Live/precache-manifest.294db948b233a41e69118fbaf419319e.js",
     "service-worker.js": "/DzTV-Live/service-worker.js",
-    "static/css/main.16964c84.chunk.css.map": "/DzTV-Live/static/css/main.16964c84.chunk.css.map",
+    "static/css/main.a030822e.chunk.css.map": "/DzTV-Live/static/css/main.a030822e.chunk.css.map",
     "static/media/a3-black.png": "/DzTV-Live/static/media/a3-black.541862e5.png",
     "static/media/a3-red.png": "/DzTV-Live/static/media/a3-red.408f4296.png",
     "static/media/a3-white.png": "/DzTV-Live/static/media/a3-white.3a316d52.png",
