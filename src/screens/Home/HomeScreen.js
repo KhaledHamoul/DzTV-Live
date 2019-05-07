@@ -3,6 +3,8 @@ import backgroundImg from '../../assets/img/background-white.png';
 import './home.css';
 var $ = require("jquery");
 
+const baseUrl = process.env.PUBLIC_URL;
+
 class HomeScreen extends Component {
 
     componentWillMount() {
@@ -52,7 +54,7 @@ class HomeScreen extends Component {
             backgroundColor: 'white'
         })
         setTimeout(() => {
-            this.props.history.push('/channels')
+            this.props.history.push( './channels' )
         }, 700)
     }
 }

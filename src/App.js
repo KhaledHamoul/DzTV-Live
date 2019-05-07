@@ -14,7 +14,7 @@ function App() {
       <header>
         <div className="row">
           <div className='col-7 col-sm-8 col-lg-10'>
-            <Link to='/'>
+            <Link to={baseUrl + '/' }>
               <img src={logo} alt='logo' className="App-logo" />
             </Link>
           </div>
@@ -27,9 +27,9 @@ function App() {
         </div>
       </header>
       <div className="container-fluid">
-        <Route exact path={baseUrl + "/"} component={HomeScreen} />
-        <Route path="/channels" component={ChannelsScreen} />
-        <Route path="/topics" component={HomeScreen} />
+        <Route exact path={baseUrl + "/" } component={HomeScreen} />
+        <Route path={baseUrl + "/channels" } component={ChannelsScreen} />
+        <Route path={baseUrl + "/topics" } component={HomeScreen} />
       </div>
     </Router>
   );
