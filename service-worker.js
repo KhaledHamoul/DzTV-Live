@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DzTV-Live/precache-manifest.c67dd9136394347b5b3bc0b243ef4720.js"
+  "/DzTV-Live/precache-manifest.3a62f24c28fc5cf94366888f18601c23.js"
 );
 
 self.addEventListener('message', (event) => {
