@@ -1,33 +1,49 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  margin-top: 28px;
+  margin-left: 40px;
+  width: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media (max-width: 480px) {
+  .App-logo {
+    width: 120px;
+  }
+}
+.star-btn {
+  transition: 0.5s;
+  margin-top: 28px;
+  background-color: #e50914;
+  color: white !important;
+  line-height: normal;
+  width: 100px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: left;
+  height: 34px;
+  padding-top: 5px;
+  padding-right: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.star-btn:hover {
+  transition: 0.5s;
+  background-color: #ff000d;
+}
+.github-logo {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 20px;
+  margin-left: 10px;
+  margin-top: -2px;
 }

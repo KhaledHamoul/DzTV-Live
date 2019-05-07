@@ -1,0 +1,42 @@
+#welcome-container {
+    position: relative;
+    top: -500px;
+}
+.background-img {
+    width: 80%;
+    opacity: 0.02;
+}
+.background-img-container {
+    position: fixed;
+    text-align: center;
+    margin-top: 60px;
+}
+.welcome-txt-container {
+    text-align: center;
+    margin: 100px auto 90px;
+}
+.welcome-txt {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-watch {
+    transition: 0.5s;
+    background-color: #e50914;
+    color: white !important;
+    text-decoration: none;
+    height: 60px;
+    display: inline-block;
+    width: 270px;
+    border-radius: 3px;
+    padding: 8px 0px;
+    font-size: 26px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-watch:hover {
+    transition: 0.5s;
+    background-color: #ff000d;
+    color: white;
+    text-decoration: none;
+}

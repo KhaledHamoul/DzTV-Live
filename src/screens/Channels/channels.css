@@ -1,0 +1,51 @@
+#chennels-container {
+    transition: 2s;
+    padding: 80px 60px 20px 60px;
+    max-width: 1000px;
+    position: relative;
+    top: -800px;
+    margin: auto;
+    opacity: 0;
+}
+@media (max-width: 768px) {
+    #chennels-container {
+        max-width: 500px;
+    }  
+}
+@media (max-width: 480px) {
+    #chennels-container {
+        width: 280px;
+        padding: 20px 5px 20px 5px;
+    }  
+}
+.channel-card {
+    transition: 0.3s;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 30px 10px;
+    border: solid 0px black;
+    margin-bottom: 300px;
+}
+.channel-card:hover {
+    transition: 0.3s !important;
+    border-bottom: solid #e50914 10px;
+}
+.channel-logo {
+    margin-top: 100px;
+    max-width: 60%;
+    max-height: 100px;
+}
+.channel-name {
+    display: inline-block;
+    margin-top: 0px;
+    text-align: end;
+    color: white;
+    font-size: 20px;
+}
+.channel-card > div:nth-child(1) {
+    height: 270px;
+}

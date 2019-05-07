@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import logo from './assets/img/logo.png';
+import githubLogo from './assets/img/github-brands.svg';
+import HomeScreen from './screens/Home/HomeScreen';
+import ChannelsScreen from './screens/Channels/ChannelsScreen';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Router>
+      <header>
+        <div className="row">
+          <div className='col-7 col-sm-8 col-lg-10'>
+            <Link to='/'>
+              <img src={logo} alt='logo' className="App-logo" />
+            </Link>
+          </div>
+          <div className='col-5 col-sm-4 col-lg-2'>
+            <a href='https://github.com/KhaledHamoul/DzTV-Live' className='btn btn-danger star-btn'>
+              Star
+              <img className='github-logo' src={githubLogo} alt='github brand'></img>
+            </a>
+          </div>
+        </div>
       </header>
-    </div>
+      <div className="container-fluid">
+        <Route exact path="/" component={HomeScreen} />
+        <Route path="/channels" component={ChannelsScreen} />
+        <Route path="/topics" component={HomeScreen} />
+      </div>
+    </Router>
   );
 }
 
