@@ -11,6 +11,8 @@ body {
 }
 
 .App-logo {
+  position: fixed;
+  z-index: 100;
   margin-top: 28px;
   margin-left: 40px;
   width: 120px;
@@ -22,6 +24,8 @@ body {
   }
 }
 .star-btn {
+  position: fixed;
+  z-index: 100;
   transition: 0.5s;
   margin-top: 28px;
   background-color: #e50914;

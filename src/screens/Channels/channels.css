@@ -1,6 +1,6 @@
 #chennels-container {
     transition: 2s;
-    padding: 80px 60px 20px 60px;
+    padding: 130px 60px 20px 60px;
     max-width: 1000px;
     position: relative;
     top: -800px;
@@ -15,7 +15,7 @@
 @media (max-width: 480px) {
     #chennels-container {
         width: 280px;
-        padding: 20px 5px 20px 5px;
+        padding: 130px 5px 20px 5px;
     }  
 }
 .channel-card {
@@ -29,6 +29,7 @@
     box-shadow: rgba(0,0,0,0.2) 1px 1px 30px 10px;
     border: solid 0px black;
     margin-bottom: 300px;
+    margin: auto;
 }
 .channel-card:hover {
     transition: 0.3s !important;

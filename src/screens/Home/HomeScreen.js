@@ -30,11 +30,11 @@ class HomeScreen extends Component {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-5 welcome-txt-container'>
+                    <div className='col-12 col-md-7 col-sm-10 col-lg-5 welcome-txt-container'>
                         <span className='welcome-txt'>Watch Algerian TV Channels Online</span>
                     </div>
                     <div className='col-12'></div>
-                    <div className='col-4 m-auto text-center'>
+                    <div className='col-12 text-center'>
                         <a onClick={this.goToChannelsPage} className='btn-watch'>Watch Now</a>
                     </div>
                 </div>

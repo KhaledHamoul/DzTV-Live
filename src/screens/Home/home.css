@@ -13,12 +13,17 @@
 }
 .welcome-txt-container {
     text-align: center;
-    margin: 100px auto 90px;
+    margin: 180px auto 90px;
 }
 .welcome-txt {
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+@media ( max-width: 575px ) {
+    .welcome-txt {
+        font-size: 40px;
+    }
 }
 .btn-watch {
     transition: 0.5s;
