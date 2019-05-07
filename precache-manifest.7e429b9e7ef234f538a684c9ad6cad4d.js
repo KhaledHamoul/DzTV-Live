@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9378103fe0bcf77e9baabe3c6b5a2bb",
+    "revision": "864bc518b6efd6712bbed782de77c573",
     "url": "/DzTV-Live/index.html"
   },
   {
-    "revision": "face5a0a53dc7b275a34",
-    "url": "/DzTV-Live/static/css/main.0abdebff.chunk.css"
+    "revision": "e643ea686bedc9afec2a",
+    "url": "/DzTV-Live/static/css/main.16964c84.chunk.css"
   },
   {
     "revision": "76a38160597778697e1a",
     "url": "/DzTV-Live/static/js/2.a5c26d8e.chunk.js"
   },
   {
-    "revision": "face5a0a53dc7b275a34",
-    "url": "/DzTV-Live/static/js/main.237caff4.chunk.js"
+    "revision": "e643ea686bedc9afec2a",
+    "url": "/DzTV-Live/static/js/main.e04b837f.chunk.js"
   },
   {
     "revision": "a9707eeca4c868dbf8b9",
